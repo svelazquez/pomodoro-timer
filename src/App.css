@@ -1,0 +1,38 @@
+.app-content {
+    width: 600px;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.card{
+    background-size: 250px;
+    background-position: top;
+    background-color: antiquewhite;
+}
+.color1, .color2, .color3{
+    width: 85%;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 1px;
+
+}
+.color1{
+    background-color: rgba(2,138,150,.75);
+
+}
+.color2{
+    background-color: rgba(237,101,36,.75);
+}
+.color3{
+    background-color: rgba(247,147,0,.75);
+}
+h2, div {
+    font-family: 'Concert One', cursive;
+    font-size: xx-large;
+}
+@media (max-width: 650px){
+    .app-content{
+        margin: 20px 20px 0;
+        width: auto;
+    }
+}
